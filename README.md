@@ -23,12 +23,12 @@ docker build -t go-helloworld .
 docker run -d -p 4000:6111 go-helloworld
 ```
 
-# Add a tag and version
+## Add a tag and version
 ``
 docker tag go-helloworld USERNAME/go-helloworld:v1.0.0
 ``
 
-# Push to docker hub
+## Push to docker hub
 ``
 docker push USERNAME/go-helloworld:v1.0.0
 ``
